@@ -1,0 +1,6 @@
+{
+	"appId": "com.example.app",
+	"appName": "vite-ionic6-vue3-ts",
+	"webDir": "public",
+	"bundledWebRuntime": false
+}
