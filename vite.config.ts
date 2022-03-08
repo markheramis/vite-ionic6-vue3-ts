@@ -37,6 +37,7 @@ export default ({ mode }) => {
           esbuildCommonjs(['@ionic/vue', '@ionic/core'])
         ]
       }
+      
     },
     test: {
       environment: 'jsdom',
@@ -46,7 +47,7 @@ export default ({ mode }) => {
         '**/dist/**',
       ],
       deps: {
-        inline: ['@ionic/vue', '@ionic/core']
+        inline: ['@ionic/vue', '@ionic/core'],
       }
     },
     preview: {
