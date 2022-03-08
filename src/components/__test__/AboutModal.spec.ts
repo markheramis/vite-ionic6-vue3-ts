@@ -49,7 +49,9 @@ describe(
     test(
       'sanity check',
       () => {
-        console.log(wrapper)
+        const ionHeader = wrapper.element.querySelector('div')
+
+        console.log(ionHeader)
       }
     )
   }

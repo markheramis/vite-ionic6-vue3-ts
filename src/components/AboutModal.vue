@@ -13,7 +13,9 @@ const emit = defineEmits(["onClose"])
 
 <template>
   <ion-header>
-    <ion-toolbar>
+    <ion-toolbar
+      ref='ionHeader'
+    >
       <ion-buttons slot='end'>
         <ion-button @click="emit('onClose')">CLOSE MODAL</ion-button>
       </ion-buttons>
