@@ -11,7 +11,7 @@ import {
   IonToolbar,
   IonModal,
 } from '@ionic/vue'
-import AboutModal from '../components/AboutModal.vue'
+import AboutModal from '@/components/AboutModal.vue'
 
 const modalIsOpen = ref(false)
 const showModal = () => {

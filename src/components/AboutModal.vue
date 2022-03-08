@@ -1,23 +1,21 @@
 <script setup lang='ts'>
-import { ref } from 'vue'
 import {
   IonContent,
   IonButton,
   IonButtons,
-  IonBackButton,
   IonHeader,
   IonTitle,
   IonToolbar,
 } from '@ionic/vue'
 
-const emits = defineEmits(["onClose"])
+const emit = defineEmits(["onClose"])
 </script>
 
 <template>
   <ion-header>
     <ion-toolbar>
       <ion-buttons slot='end'>
-        <ion-button @click="$emit('onClose')">CLOSE MODAL</ion-button>
+        <ion-button @click="emit('onClose')">CLOSE MODAL</ion-button>
       </ion-buttons>
       <ion-title>About Modal</ion-title>
     </ion-toolbar>
