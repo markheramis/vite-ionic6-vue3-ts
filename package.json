@@ -1,6 +1,6 @@
 {
   "name": "vite-ionic6-vue3-ts",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
@@ -8,7 +8,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.25"
+    "@ionic/vue": "^6.0.10",
+    "@ionic/vue-router": "^6.0.10",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.13"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.2.0",
